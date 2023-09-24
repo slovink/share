@@ -8,7 +8,7 @@ locals {
 
 module "network" {
   
-  source = "git@github.com:slovink/terraform-google-network.git"
+  source = "https://github.com/slovink/terraform-google-network.git"
 
         name        = local.networkName
         environment = var.environment

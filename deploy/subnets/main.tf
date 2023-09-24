@@ -18,7 +18,7 @@ data "google_compute_network" "network" {
 
 module "subnets" {
   
-  source = "git@github.com:slovink/terraform-google-subnets.git"
+  source = "https://github.com/slovink/terraform-google-subnets.git"
 
         name        = local.subnetName
         environment = var.environment

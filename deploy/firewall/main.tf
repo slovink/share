@@ -18,7 +18,7 @@ data "google_compute_network" "network" {
 
 module "firewall" {
 
-    source = "git@github.com:slovink/terraform-google-firewall.git"
+    source = "https://github.com/slovink/terraform-google-firewall.git"
 
         name                            = local.firewallName
         module_enabled                  = true

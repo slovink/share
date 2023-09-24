@@ -17,7 +17,7 @@ data "google_compute_subnetwork" "subnet" {
 
 
 module "Service-account" {
-  source  = "git@github.com:slovink/terraform-gcp-Service-account.git"
+  source  = "https://github.com/slovink/terraform-google-kubernetes.git"
 
 
   name        = local.serviceAcoountName
